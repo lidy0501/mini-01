@@ -1,0 +1,89 @@
+<!--
+    1.text 标签相当于以前web中的span标签，行内标签，不会换行
+    2.view 标签相当于web中的div标签，块级元素，会换行
+-->
+<!-- <text>1</text>
+<text>2</text>
+<view>1</view>
+<view>2</view> -->
+
+<view>{{msg}}</view>
+<view>{{num}}</view>
+<view>是否是伪娘：{{isGirl}}</view>
+<view>{{person.name}}</view>
+<view>{{person.age}}</view>
+<view>{{person.weight}}</view>
+<view>{{person.height}}</view>
+
+<view data-num="{{num}}">自定义属性</view>
+
+
+<!--boolen值时，字符换与{{}}之间一定不要有空格，否则识别错误
+    如  <checkbox checked="            {{isCheck}}">是错误的
+
+-->
+<view>
+  <checkbox checked="{{isCheck}}">
+  </checkbox>  
+</view>
+
+<view>{{1+1}}</view>
+<view>{{'1'+'1'}}</view>
+<view>{{10 % 2 === 0 ? '偶数' : '奇数'}}</view>
+
+<!--列表渲染-->
+<view> 对象数组
+    <view 
+        wx:for="{{list}}" 
+        wx:for-item="item" 
+        wx:for-index="index"
+        wx:key="id">
+        索引：{{index}}
+        -- 
+        值：{{item.name}}
+    </view>
+</view>
+
+<view> 普通数组
+    <view 
+    wx:for="{{list2}}"
+    wx:for-item="item"
+    wx:for-index="index"
+    wx:key="index">
+    索引：{{index}}
+        -- 
+    值：{{item}}
+    </view>
+</view>
+
+<view>  循环对象
+    <view wx:for="{{person}}" 
+          wx:for-item="value"
+          wx:for-index="key"
+          wx:key="key">
+        属性：{{key}}
+        --
+        值：{{value}}
+    </view>
+</view> 
+
+<view>
+    <view>条件渲染</view>
+    <view wx:if="{{true}}">显示</view>
+    <view wx:if="{{false}}">隐藏</view>
+
+    <view wx:if="{{false}}">1</view>
+    <view wx:elif="{{false}}">2</view>
+    <view wx:else>3</view>
+
+
+    <view>-------------------------------</view>
+    <view hidden>hidden1</view>
+    <view hidden="{{false}}">hidden2</view>
+
+    <view>----000----</view>
+
+    <view wx:if="{{false}}">wx:if</view>
+    <view hidden>hidden</view>
+
+</view>
