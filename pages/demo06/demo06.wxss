@@ -1,0 +1,6 @@
+/*
+    通过@import引入样式文件
+    必须是相对路径
+*/
+
+@import "../../styles/common.wxss"

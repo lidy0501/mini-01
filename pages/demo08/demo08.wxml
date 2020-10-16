@@ -1,0 +1,5 @@
+<!--pages/demo08/demo08.wxml-->
+<!--长按复制功能-->
+<text selectable="{{true}}" decode="{{true}}">
+长安我复制长安我复制长安我复制 &nbsp;123 &lt;
+</text>
