@@ -1,0 +1,9 @@
+<navigator url="/pages/demo10/demo10" target="self" open-type="navigate"> 轮播图页面 </navigator>
+<navigator url="/pages/index/index" target="self" open-type="navigate"> 跳转到tabbar页面 </navigator>
+
+<navigator url="/pages/demo10/demo10" target="self" open-type="redirect"> 轮播图页面 redirect </navigator>
+
+<navigator url="/pages/index/index" target="self" open-type="switchTab"> switchTab 跳转到tabbar页面 </navigator>
+
+<navigator url="/pages/index/index" target="self" open-type="reLaunch"> reLaunch 随便跳转 </navigator>
+

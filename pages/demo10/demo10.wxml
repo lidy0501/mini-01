@@ -1,0 +1,6 @@
+<swiper autoplay="{{true}}" interval="1000" circular="{{true}}" indicator-dots="{{true}}"
+    indicator-color="#006699" indicator-active-color="red">
+    <swiper-item><image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1JpAlgtTfau8jSZFwSut1mVXa.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/imgextra/i4/6000000005861/O1CN01Ndj1O61tANyFtKkP3_!!6000000005861-0-octopus.jpg"/></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/imgextra/i4/6000000001122/O1CN01h1tZ5p1K9v0sfGQ4D_!!6000000001122-0-octopus.jpg"/></swiper-item>
+</swiper>

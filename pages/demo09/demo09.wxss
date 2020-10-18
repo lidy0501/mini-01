@@ -1,0 +1,7 @@
+image {
+    box-sizing: border-box0;
+    border: 1px solid rebeccapurple;
+
+    width: 300px;
+    height: 500px;
+}
