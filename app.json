@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/demo18/demo18",        
     "pages/demo17/demo17",     
     "pages/demo16/demo16",     
     "pages/demo15/demo15",    
@@ -27,7 +28,9 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "枫的小程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#006699"
   },
   "tabBar": { 
     "list": [{
@@ -52,6 +55,12 @@
     {
       "pagePath": "pages/search/search",
       "text": "搜索",
+      "iconPath": "icon/_search.png",
+      "selectedIconPath": "icon/search.png"
+    },
+    {
+      "pagePath": "pages/demo18/demo18",
+      "text": "demo18",
       "iconPath": "icon/_search.png",
       "selectedIconPath": "icon/search.png"
     }],
